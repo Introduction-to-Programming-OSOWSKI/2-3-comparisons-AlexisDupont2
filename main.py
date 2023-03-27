@@ -25,3 +25,9 @@ def lessOrEqual(x,y):
         return "true"
     else:
         return "false"
+
+greaterThan(6, 10) 
+equalTo(23, 23)  
+lessOrEqual(99, 100)  
+lessOrEqual(100, 100)  
+lessOrEqual(101, 100)
