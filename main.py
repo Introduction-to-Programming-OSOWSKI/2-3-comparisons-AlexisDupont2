@@ -2,29 +2,29 @@
 
 def greaterThan(x,y):
     if (x>y):
-        return "true"
+        return True
     else:
-        return"false"
+        return False
 def lessThan(x,y):
     if (x<y):
-        return "true"
+        return True
     else:
-        return "fasle"
+        return False
 def equalTo(x,y):
     if (x==y):
-        return "true"
+        return True
     else:
-        return "fasle"
+        return False
 def greaterOrEqual(x,y):
     if (x>=y):
-        return "true"
+        return True
     else:
-        return "false"
+        return False
 def lessOrEqual(x,y):
     if (x<=y):
-        return "true"
+        return True
     else:
-        return "false"
+        return False
 
 greaterThan(6, 10) 
 equalTo(23, 23)  
